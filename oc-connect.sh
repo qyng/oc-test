@@ -8,7 +8,7 @@ prog="openconnect"
 if [ -r $HOME/.config/oc-test ]; then
   . $HOME/.config/oc-test
 else
-  . ./oc-config.conf
+  . ./oc-test.conf
 fi
 
 if [ -z $username ] || [ -z $server ]; then
