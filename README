@@ -1,0 +1,7 @@
+# oc-test
+# (c) 2018-08-14  Qi Yong <qiy@vecl.cn>
+
+
+quiet run <num> instances
+
+   $ ./oc-test.sh 25 > /dev/null
